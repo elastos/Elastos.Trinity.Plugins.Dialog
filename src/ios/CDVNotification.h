@@ -21,8 +21,9 @@
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioServices.h>
 #import <Cordova/CDVPlugin.h>
+#import "TrinityPlugin.h"
 
-@interface CDVNotification : CDVPlugin <UIAlertViewDelegate>{}
+@interface CDVNotification : TrinityPlugin <UIAlertViewDelegate>{}
 
 - (void)alert:(CDVInvokedUrlCommand*)command;
 - (void)confirm:(CDVInvokedUrlCommand*)command;
