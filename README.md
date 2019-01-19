@@ -23,9 +23,9 @@ description: Use native dialog UI elements
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-dialogs?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-dialogs)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-dialogs.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-dialogs)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-dialogs?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-dialogs)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-dialogs.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-dialogs)|
 
-# cordova-plugin-dialogs
+# elastos-trinity-plugins-dialogs
 
 This plugin provides access to some native dialog UI elements
 via a global `navigator.notification` object.
@@ -39,7 +39,7 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 ## Installation
 
-    cordova plugin add cordova-plugin-dialogs
+    cordova plugin add elastos-trinity-plugins-dialogs
 
 ## Methods
 
