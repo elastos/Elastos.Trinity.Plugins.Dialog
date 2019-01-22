@@ -39,7 +39,9 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 ## Installation
 
-    cordova plugin add elastos-trinity-plugins-dialogs
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Dialog
+
+    The plugins field of dapp manifest.json adds Dialog values, such as "plugins": ["XXXX", "Dialog", "XXXX"]
 
 ## Methods
 
