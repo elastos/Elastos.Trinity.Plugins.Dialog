@@ -21,10 +21,6 @@ description: Use native dialog UI elements
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-dialogs?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-dialogs)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-dialogs.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-dialogs)|
-
 # elastos-trinity-plugins-dialogs
 
 This plugin provides access to some native dialog UI elements
@@ -39,9 +35,7 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 ## Installation
 
-    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Dialog
-
-    The plugins field of dapp manifest.json adds Dialog values, such as "plugins": ["XXXX", "Dialog", "XXXX"]
+    The plugins field of dapp manifest.json adds Notification values, such as "plugins": ["XXXX", "Notification", "XXXX"]
 
 ## Methods
 
@@ -83,9 +77,7 @@ function, which is typically less customizable.
 ### Supported Platforms
 
 - Android
-- Browser
 - iOS
-- Windows
 
 ## navigator.notification.confirm
 
@@ -127,19 +119,11 @@ indexing, so the value is `1`, `2`, `3`, etc.
 ### Supported Platforms
 
 - Android
-- Browser
 - iOS
-- Windows
 
 ### Android Quirks
 
 - Android supports a maximum of three buttons, and ignores any more than that.
-
-### Windows Quirks
-
-- On Windows8/8.1 it is not possible to add more than three buttons to MessageDialog instance.
-
-- On Windows Phone 8.1 it's not possible to show dialog with more than two buttons.
 
 ## navigator.notification.prompt
 
@@ -186,19 +170,13 @@ contains the following properties:
 ### Supported Platforms
 
 - Android
-- Browser
 - iOS
-- Windows
 
 ### Android Quirks
 
 - Android supports a maximum of three buttons, and ignores any more than that.
 
 - On Android 3.0 and later, buttons are displayed in reverse order for devices that use the Holo theme.
-
-### Windows Quirks
-
-- On Windows prompt dialog is html-based due to lack of such native api.
 
 ## navigator.notification.beep
 
@@ -216,9 +194,7 @@ The device plays a beep sound.
 ### Supported Platforms
 
 - Android
-- Browser
 - iOS
-- Windows 8
 
 ### Android Quirks
 
